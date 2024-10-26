@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+}
+body{
+   display: grid;
+   place-content: center;
+   background-color: #141518; 
+   max-height: 100vh;
+}
+.container{
+    width: 400px ;
+    height: 380px;
+    border-radius: 30px;
+    background-color: #222832;
+    margin-top: 220px;
+}
+.container .star{
+    width: 48px;
+    height: 48px;
+    background-color: #2d363e;
+    margin: 25px 0 0 25px;
+    border-radius: 50px;
+}
+.container .star img{
+    margin: 15px 0px 0 16px;
+    width: 18px;
+}
+.container .maintext{
+    font-size: 15px;
+    color: white;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .maintext p{
+    font-size: 16px;
+    padding-right: 20px;
+    color:#4D535D;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.buttom{
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    margin-right: 10px;
+}
+.buttom .numbers{ 
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: #2d363e;
+    margin: 25px 0 0 25px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.buttom .numbers:hover{ 
+    background-color: white;
+}
+.buttom p{
+    color: #4D535D;
+    margin-left: 20px;
+}
+.container .knopka button{
+    width: 340px;
+    height: 40px;
+    margin-left: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+}
+.container .knopka button:hover{
+    background-color: white;
+}
+.container .knopka button a{
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+    font-family: "Overpass", sans-serif;
+    text-decoration: none;
+  
+}
